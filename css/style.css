@@ -1,5 +1,5 @@
 :root {
-  --primary: red;
+  --primary: yellow;
   --bg: #f5f5dc;
 }
 
@@ -546,8 +546,6 @@ footer .credit {
   .row-input {
     flex-wrap: wrap;
   }
-
- 
 }
 
 /* Mobile Phone */
@@ -555,6 +553,4 @@ footer .credit {
   html {
     font-size: 55%;
   }
-
 }
-
