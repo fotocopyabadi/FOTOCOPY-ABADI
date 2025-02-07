@@ -1,29 +1,20 @@
 // Toggle class active hamburger menu
 const navbarNav = document.querySelector(".navbar-nav");
 // ketika hamburger menu di klik
-document.querySelector("#hamburger-menu").onclick = () => {
+document.querySelector("#hamburger-menu").onclick = (e) => {
   navbarNav.classList.toggle("active");
-};
-
-//Toggle class active untuk search form
-const searchForm = document.querySelector(".search-form");
-const searchbox = document.querySelector("#search-box");
-
-document.querySelector("#search-button").onclick = (e) => {
-  searchForm.classList.toggle("active");
-  searchbox.focus();
+  navbarNav.focus();
   e.preventDefault();
 };
 
+
 // Klik diluar elemen
 const hm = document.querySelector("#hamburger-menu");
-const sb = document.querySelector("#search-button");
+
 
 document.addEventListener("click", function (e) {
   if (!hm.contains(e.target)) {
     navbarNav.classList.remove("active");
   }
-  if (!sb.contains(e.target)) {
-    searchForm.classList.remove("active");
-  }
+  
 });
