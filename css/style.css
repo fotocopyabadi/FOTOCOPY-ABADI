@@ -24,7 +24,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 2.5rem 7%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
   border-bottom: 1px solid #4169e1;
   position: fixed;
   top: 0;
@@ -85,18 +85,18 @@ body {
 
 #hamburger-menu {
   display: none;
+  
 }
 
 /* Hero section */
 .hero {
   min-height: 100vh;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   background-image: url("../logo web/FOTOCOPY\ ABADI.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
 }
 
 .hero .content {
@@ -184,11 +184,15 @@ main .container {
 main .container > div {
   text-align: center;
   padding: 0.1rem;
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
 }
 
 main .container img {
   width: 80%;
+}
+
+main .container h3 {
+  font-size: 1rem;
 }
 /* About Sectionn */
 .about {
@@ -209,7 +213,6 @@ main .container img {
   text-align: center;
   font-size: 2.6rem;
   margin-bottom: 1rem;
-  
 }
 
 .about h2 {
@@ -408,44 +411,6 @@ main .container img {
   color: blue;
 }
 
-/* input form */
-
-.row-input {
-  display: flex;
-  margin-top: 2rem;
-  background-color: var(--bg);
-}
-.row-input form {
-  flex: 1 1 45rem;
-  padding: 5rem 2rem;
-  text-align: center;
-}
-
-.row-input form .input-group {
-  align-items: center;
-  margin-top: 2rem;
-  background-color: var(--bg);
-  border: 1px solid black;
-  padding-left: 2rem;
-}
-
-.row-input form .input-group input {
-  padding: 1rem;
-  font: 1rem;
-  background: none;
-  color: black;
-}
-
-.row-input form .btn {
-  margin-top: 3rem;
-  display: inline-block;
-  padding: 1rem 3rem;
-  font-size: 1rem;
-  color: white;
-  background-color: rgb(201, 123, 22);
-  border-radius: 3rem;
-  cursor: pointer;
-}
 /* footer */
 footer {
   background-color: var(--bg);
