@@ -120,7 +120,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 1rem;
-  padding: 1rem 3rem;
+  padding: 1rem 5rem;
   font-size: 1.4rem;
   color: red;
   background-color: rgba(255, 222, 89);
@@ -136,11 +136,6 @@ body {
   width: 100%;
   height: 30%;
   bottom: 0;
-  background: linear-gradient(
-    0deg,
-    rgba(255, 222, 89) 3%,
-    rgba(255, 255, 255, 0) 25%
-  );
 }
 
 /* pencarian */
@@ -153,16 +148,18 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 5rem;
 }
 
 main form input[type="text"] {
-  width: 30rem;
+  width: 20rem;
   padding: 0.5rem;
   height: 3rem;
   letter-spacing: 2px;
   background: white;
   border: 1px solid black;
   border-radius: 55rem;
+  margin-left: 6rem;
 }
 
 main form input[type="submit"] {
@@ -189,6 +186,10 @@ main .container > div {
   padding: 0.1rem;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
 }
+
+main .container img {
+  width: 80%;
+}
 /* About Sectionn */
 .about {
   padding: 10.5rem 7% 1.4rem;
@@ -208,6 +209,7 @@ main .container > div {
   text-align: center;
   font-size: 2.6rem;
   margin-bottom: 1rem;
+  
 }
 
 .about h2 {
