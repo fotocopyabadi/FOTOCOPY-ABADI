@@ -24,9 +24,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2.5rem 7%;
-  background-color: rgba(0, 0, 0, 0.7);
-  border-bottom: 1px solid #4169e1;
+  padding: 2rem 4%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-bottom: 2px solid white;
   position: fixed;
   top: 0;
   left: 0;
@@ -34,10 +34,6 @@ body {
   z-index: 9999;
 }
 
-.navbar .navbar-img {
-  width: 8%;
-  height: 8%;
-}
 
 .navbar-logo {
   font-size: 2rem;
@@ -236,34 +232,6 @@ main .container h3 {
   justify-content: center;
 }
 
-.about .product-icons a {
-  width: 3rem;
-  height: 3rem;
-  color: blue;
-  margin: 0.3rem;
-  border: 1.5px solid black;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.about-container {
-  position: relative;
-  background-color: #fefefe;
-  color: black;
-  margin: 15% auto;
-  padding: 1.2rem;
-  border: 1px solid #666;
-  width: 90%;
-}
-
-.about .product-icons a:hover {
-  background-color: #6495ed;
-  border: 1px solid var(--bg);
-}
-
 .about .row1 {
   justify-content: center;
   align-items: center;
@@ -307,12 +275,12 @@ main .container h3 {
   padding: 0 1rem;
 }
 
-.about .row2 .content2 {
+.about2 .row2 .content2 {
   flex: 1 1 35rem;
   padding: 0 1rem;
 }
 
-.about .row3 .content3 {
+.About .row3 .content3 {
   flex: 1 1 35rem;
   padding: 0 1rem;
 }
@@ -351,6 +319,10 @@ main .container h3 {
   font-style: italic;
 }
 
+.About2 .row2 {
+  background-color: aqua;
+}
+
 /* katalog section */
 .Katalog h1,
 .Kontak h1 {
@@ -360,7 +332,7 @@ main .container h3 {
 .Katalog p,
 .Kontak p {
   text-align: center;
-  max-width: 30rem;
+  max-width: 50rem;
   margin: auto;
   line-height: 1.6;
   margin-bottom: 2rem;
@@ -479,6 +451,10 @@ footer .credit a {
 
 footer .credit {
   font-size: 0.8rem;
+}
+
+/* about-one */
+.about-one {
 }
 /* media Queries */
 
