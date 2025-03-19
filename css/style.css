@@ -25,7 +25,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 2rem 4%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.4);
   border-bottom: 2px solid white;
   position: fixed;
   top: 0;
@@ -33,7 +33,6 @@ body {
   right: 0;
   z-index: 9999;
 }
-
 
 .navbar-logo {
   font-size: 2rem;
@@ -50,8 +49,9 @@ body {
 .navbar .navbar-nav a {
   color: white;
   display: inline-block;
-  font-size: 1.2rem;
-  margin: 0 1rem;
+  font-size: 1.5rem;
+  margin: 0 2rem;
+  font-weight: 800;
 }
 
 .navbar .navbar-nav a:hover {
@@ -90,7 +90,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../logo web/FOTOCOPY\ ABADI.jpg");
+  background-image: url("../logo web/img\ navbar.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -214,6 +214,12 @@ main .container h3 {
 .about .content1 {
   text-align: center;
 }
+.about2 .content2 {
+  text-align: center;
+}
+.about3 .content3 {
+  text-align: center;
+}
 
 .about h2 {
   text-align: center;
@@ -227,34 +233,30 @@ main .container h3 {
   font-size: 1.5rem;
 }
 
-.about .product-icons {
-  display: flex;
-  justify-content: center;
-}
 
-.about .row1 {
-  justify-content: center;
+.about .row1 .about-img1 {
+  text-align: center;
+
+}
+.about2 .row2 .about-img2 {
+  text-align: center;
   align-items: center;
-  text-align: center;
 }
 
-.about .row2 {
+.about3 .row3 .about-img3 {
   text-align: center;
-}
-
-.about .row3 {
-  text-align: center;
+  align-items: ;
 }
 
 .about .row1 .navbar-img1 {
   flex: 1 1 45rem;
 }
 
-.about .row2 .navbar-img2 {
+.about2 .row2 .navbar-img2 {
   flex: 1 1 45rem;
 }
 
-.about .row3 .navbar-img3 {
+.about3 .row3 .navbar-img3 {
   flex: 1 1 45rem;
 }
 
@@ -262,11 +264,11 @@ main .container h3 {
   width: 100%;
 }
 
-.about .row2 .navbar-img2 img {
+.about2 .row2 .navbar-img2 img {
   width: 100%;
 }
 
-.about .row3 .navbar-img3 img {
+.about3 .row3 .navbar-img3 img {
   width: 100%;
 }
 
@@ -274,13 +276,11 @@ main .container h3 {
   flex: 1 1 35rem;
   padding: 0 1rem;
 }
-
 .about2 .row2 .content2 {
   flex: 1 1 35rem;
   padding: 0 1rem;
 }
-
-.About .row3 .content3 {
+.about3 .row3 .content3 {
   flex: 1 1 35rem;
   padding: 0 1rem;
 }
@@ -290,12 +290,12 @@ main .container h3 {
   margin-bottom: 1rem;
 }
 
-.about .row2 .content2 h3 {
+.about2 .row2 .content2 h3 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
-.about .row3 .content3 h3 {
+.about3 .row3 .content3 h3 {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
@@ -306,21 +306,17 @@ main .container h3 {
   line-height: 1.6;
 }
 
-.about .row2 .content2 p {
+.about2 .row2 .content2 p {
   margin-bottom: 0.8rem;
   font-size: 1.4rem;
   line-height: 1.6;
 }
 
-.about .row3 .content3 p {
+.about3 .row3 .content3 p {
   margin-bottom: 0.8rem;
   font-size: 1.4rem;
   line-height: 1.6;
   font-style: italic;
-}
-
-.About2 .row2 {
-  background-color: aqua;
 }
 
 /* katalog section */
@@ -453,9 +449,7 @@ footer .credit {
   font-size: 0.8rem;
 }
 
-/* about-one */
-.about-one {
-}
+
 /* media Queries */
 
 /* Laptop */
@@ -513,11 +507,11 @@ footer .credit {
     flex-wrap: wrap;
   }
 
-  .about .row2 {
+  .about2 .row2 {
     flex-wrap: wrap;
   }
 
-  .about .row3 {
+  .about3 .row3 {
     flex-wrap: wrap;
   }
 
@@ -527,13 +521,13 @@ footer .credit {
     object-position: center;
   }
 
-  .about .row2 .about-img2 img {
+  .about2 .row2 .about-img2 img {
     height: 24rem;
     object-fit: cover;
     object-position: center;
   }
 
-  .about .row3 .about-img3 img {
+  .about3 .row3 .about-img3 img {
     height: 24rem;
     object-fit: cover;
     object-position: center;
@@ -543,11 +537,11 @@ footer .credit {
     padding: 0;
   }
 
-  .about .row2 .content2 {
+  .about2 .row2 .content2 {
     padding: 0;
   }
 
-  .about .row3 .content3 {
+  .about3 .row3 .content3 {
     padding: 0;
   }
 
@@ -556,12 +550,12 @@ footer .credit {
     font-size: 2rem;
   }
 
-  .about .row2 .content2 h3 {
+  .about2 .row2 .content2 h3 {
     margin-top: 1rem;
     font-size: 2rem;
   }
 
-  .about .row3 .content3 h3 {
+  .about3 .row3 .content3 h3 {
     margin-top: 1rem;
     font-size: 2rem;
   }
@@ -570,9 +564,6 @@ footer .credit {
     font-size: 1.6rem;
   }
 
-  .about .row2 .content2 p {
-    font-size: 1.6rem;
-  }
 
   .Katalog p {
     font-size: 1.2rem;
